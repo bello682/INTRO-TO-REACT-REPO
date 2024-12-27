@@ -127,6 +127,10 @@ h1 {
 	h1 {
 		font-size: 1.5rem; /* Reduce heading size */
 	}
+
+	.table-container {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
@@ -143,6 +147,10 @@ h1 {
 	.table-image {
 		width: 30px;
 		height: 30px; /* Further reduce image size */
+	}
+
+	.table-container {
+		max-width: 100%;
 	}
 }
 
