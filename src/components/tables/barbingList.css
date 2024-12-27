@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	color: #333;
+	color: white;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -47,10 +47,12 @@ h1 {
 
 .animated-table tr:nth-child(even) {
 	background-color: #f9f9f9;
+	color: black;
 }
 
 .animated-table tr:hover {
 	background-color: #f1f1f1;
+	color: black;
 	transition: background-color 0.3s ease-in-out;
 }
 

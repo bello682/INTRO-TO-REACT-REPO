@@ -5,12 +5,15 @@
 /* Body */
 .App {
 	width: 90%;
-	height: 90vh;
+	/* height: 90vh; */
 	/* background-color: rgb(50, 48, 48); */
+	background: black;
+	color: white;
 	justify-content: center;
 	align-items: center;
 	margin: auto;
-	/* border: 1px solid red; */
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 /* Header  */
