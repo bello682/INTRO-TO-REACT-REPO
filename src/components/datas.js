@@ -1,4 +1,31 @@
 import clippers from "../images/clipper.jpg";
+import barbeingChair from "../images/barbershop-chair.webp";
+import Sterilizing from "../images/sterilizing-machine.jpg";
+import towelMachine from "../images/towel-machine.webp";
+import outLiner from "../images/outliner.webp";
+import DustingBrush from "../images/dustingh brush.webp";
+import afetrShave from "../images/After-shave.webp";
+import waitingChair from "../images/waiting chair.avif";
+import standardHairDryer from "../images/hairDryer.webp";
+import hairWasher from "../images/washing chair.avif";
+import ac from "../images/ac.avif";
+import generator from "../images/generator.webp";
+import standingFan from "../images/standing fan.jpg";
+import tonging from "../images/tonging.avif";
+import straightener from "../images/straightener.webp";
+import trolley from "../images/trolley.jpg";
+import handDryer from "../images/hand dryer.jpg";
+import tv from "../images/tv.jpg";
+import soundSystem from "../images/sound system.jpg";
+import clipperOil from "../images/clipper oil.jpg";
+import hairBrush from "../images/hair brush.webp";
+import hairSpray from "../images/hair spray.webp";
+import mirror from "../images/mirror.jpeg";
+import apron from "../images/apron.jpeg";
+import clipperBlade from "../images/clipper blade and.webp";
+import disposableTissue from "../images/disposable neck tissue.avif";
+import dustingPowder from "../images/dusting powder.jpg";
+import comb from "../images/combs.jpg";
 
 export const products = [
 	{
@@ -6,7 +33,7 @@ export const products = [
 		name: "Barbing Chair",
 		needs: 2,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: barbeingChair,
 		totalPrice: 0,
 	},
 	{
@@ -14,15 +41,15 @@ export const products = [
 		name: "Sterilizing Machine",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: Sterilizing,
 		totalPrice: 0,
 	},
 	{
 		id: 3,
-		name: "Hot Water Machine",
+		name: "Towel Machine",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: towelMachine,
 		totalPrice: 0,
 	},
 	{
@@ -30,7 +57,7 @@ export const products = [
 		name: "Customer Waiting Chairs",
 		needs: "2 Long Chairs",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: waitingChair,
 		totalPrice: 0,
 	},
 	{
@@ -38,7 +65,7 @@ export const products = [
 		name: "Standard Hair Dryer",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: standardHairDryer,
 		totalPrice: 0,
 	},
 	{
@@ -46,7 +73,7 @@ export const products = [
 		name: "Standard Hair Washer & Tap",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: hairWasher,
 		totalPrice: 0,
 	},
 	{
@@ -54,7 +81,7 @@ export const products = [
 		name: "Air Conditioner (AC)",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: ac,
 		totalPrice: 0,
 	},
 	{
@@ -62,7 +89,7 @@ export const products = [
 		name: "Generator ",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: generator,
 		totalPrice: 0,
 	},
 	{
@@ -70,7 +97,7 @@ export const products = [
 		name: "Standing Fan",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: standingFan,
 		totalPrice: 0,
 	},
 	{
@@ -78,7 +105,7 @@ export const products = [
 		name: "Hair Tonging Stove (SET)",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: tonging,
 		totalPrice: 0,
 	},
 	{
@@ -86,7 +113,7 @@ export const products = [
 		name: "Straigheners",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: straightener,
 		totalPrice: 0,
 	},
 	{
@@ -94,7 +121,7 @@ export const products = [
 		name: "Trolley",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: trolley,
 		totalPrice: 0,
 	},
 	{
@@ -102,7 +129,7 @@ export const products = [
 		name: "Hand Dryer",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: handDryer,
 		totalPrice: 0,
 	},
 	{
@@ -110,7 +137,7 @@ export const products = [
 		name: "TV",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: tv,
 		totalPrice: 0,
 	},
 	{
@@ -118,7 +145,7 @@ export const products = [
 		name: "Sound System",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: soundSystem,
 		totalPrice: 0,
 	},
 	{
@@ -126,7 +153,7 @@ export const products = [
 		name: "Mirror",
 		needs: "Depend on the size of the Work Space",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: mirror,
 		totalPrice: 0,
 	},
 	{
@@ -142,7 +169,7 @@ export const products = [
 		name: "Clipper Out-liner",
 		needs: 2,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: outLiner,
 		totalPrice: 0,
 	},
 	{
@@ -150,7 +177,7 @@ export const products = [
 		name: "Clipper Oil",
 		needs: 2,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: clipperOil,
 		totalPrice: 0,
 	},
 	{
@@ -158,7 +185,7 @@ export const products = [
 		name: "Clipper Brush",
 		needs: 4,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: hairBrush,
 		totalPrice: 0,
 	},
 	{
@@ -166,7 +193,7 @@ export const products = [
 		name: "Aftershave",
 		needs: "Pack",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: afetrShave,
 		totalPrice: 0,
 	},
 	{
@@ -174,7 +201,7 @@ export const products = [
 		name: "Hair Spray",
 		needs: "Different Types & Qualities",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: hairSpray,
 		totalPrice: 0,
 	},
 	{
@@ -182,7 +209,7 @@ export const products = [
 		name: "Apron",
 		needs: "5 Pron for Haircults & 1 for Hair Dye ",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: apron,
 		totalPrice: 0,
 	},
 	{
@@ -190,7 +217,7 @@ export const products = [
 		name: "Hair Brush",
 		needs: 4,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: hairBrush,
 		totalPrice: 0,
 	},
 	{
@@ -198,7 +225,7 @@ export const products = [
 		name: "Hair Dusting Brush",
 		needs: 3,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: DustingBrush,
 		totalPrice: 0,
 	},
 	{
@@ -206,7 +233,7 @@ export const products = [
 		name: "Powder",
 		needs: 1,
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: dustingPowder,
 		totalPrice: 0,
 	},
 	{
@@ -214,7 +241,7 @@ export const products = [
 		name: "Clipper Blade & Linner Blades",
 		needs: "pack",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: clipperBlade,
 		totalPrice: 0,
 	},
 	{
@@ -222,15 +249,7 @@ export const products = [
 		name: "Disposable Neck Tissue ",
 		needs: "Pack",
 		price: 0,
-		image: "https://via.placeholder.com/150",
-		totalPrice: 0,
-	},
-	{
-		id: 29,
-		name: "Hair Spray",
-		needs: "pack",
-		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: disposableTissue,
 		totalPrice: 0,
 	},
 	{
@@ -238,7 +257,7 @@ export const products = [
 		name: "Combs",
 		needs: "Different Types & Qualities",
 		price: 0,
-		image: "https://via.placeholder.com/150",
+		image: comb,
 		totalPrice: 0,
 	},
 ];

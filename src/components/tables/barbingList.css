@@ -12,7 +12,6 @@ body {
 }
 
 h1 {
-	color: white;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -40,9 +39,10 @@ h1 {
 }
 
 .animated-table th {
-	background-color: #007bff;
+	background-color: black;
 	color: white;
 	text-transform: uppercase;
+	padding: 20px 0;
 }
 
 .animated-table tr:nth-child(even) {
@@ -62,6 +62,13 @@ h1 {
 	cursor: pointer;
 	border-radius: 4px;
 	transition: transform 0.3s;
+}
+
+.largerView {
+	width: 50%;
+	height: 50%;
+	transform: scale(1);
+	transition: transform 0.3s ease-in-out;
 }
 
 .table-image:hover {

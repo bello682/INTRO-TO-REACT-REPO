@@ -52,7 +52,7 @@ const BarbingListTable = () => {
 			{modalImage && (
 				<div className="modal" onClick={closeModal}>
 					<div className="modal-content" onClick={(e) => e.stopPropagation()}>
-						<img src={modalImage} alt="Large view" />
+						<img src={modalImage} alt="Large view" className="largerView" />
 						<button className="close-button" onClick={closeModal}>
 							&times;
 						</button>

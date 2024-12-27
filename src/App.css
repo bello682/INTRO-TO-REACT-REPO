@@ -5,10 +5,7 @@
 /* Body */
 .App {
 	width: 90%;
-	/* height: 90vh; */
 	/* background-color: rgb(50, 48, 48); */
-	background: black;
-	color: white;
 	justify-content: center;
 	align-items: center;
 	margin: auto;
