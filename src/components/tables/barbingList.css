@@ -146,9 +146,6 @@ h1 {
 		height: 100%;
 		transform: scale(1);
 		transition: transform 0.3s ease-in-out;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
 	}
 }
 
@@ -176,9 +173,6 @@ h1 {
 		height: 100%;
 		transform: scale(1);
 		transition: transform 0.3s ease-in-out;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
 	}
 }
 
